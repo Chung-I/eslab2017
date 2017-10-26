@@ -1,0 +1,16 @@
+{
+  "name": "bluetooth",
+  "version": "1.0.0",
+  "description": "Using 2 RPi as BLE central and BLE sensor device, BLE central can read the information stored in the sensor.</br> We use ADXL345 as our sensor. ## Requirements * BLE central: [python 2.7][1] , [pygattlib][2] * BLE sensor device: [node js][3] , [bleno][4]",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "bleno": "^0.4.2",
+    "i2c": "^0.2.3"
+  }
+}
